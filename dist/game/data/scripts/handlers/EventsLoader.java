@@ -3,8 +3,9 @@ package handlers;
 import gr.sr.handler.ABLoader;
 
 import events.CharacterBirthday.CharacterBirthday;
-import events.NewEra.NewEra;
-import events.SquashEvent.SquashEvent;
+import events.GiftOfVitality.GiftOfVitality;
+//import events.NewEra.NewEra;
+//import events.SquashEvent.SquashEvent;
 
 /**
  * @author L2jSunrise Team
@@ -18,13 +19,13 @@ public final class EventsLoader extends ABLoader
 		
 		// Disabled by default events
 		// FreyaCelebration.class,
-		// GiftOfVitality.class,
+		GiftOfVitality.class,
 		// HeavyMedal.class,
 		// LoveYourGatekeeper.class,
 		// MasterOfEnchanting.class,
 		// SavingSanta.class,
-		SquashEvent.class,
-		NewEra.class,
+		// SquashEvent.class,
+		// NewEra.class,
 		// TheValentineEvent.class,
 	};
 	

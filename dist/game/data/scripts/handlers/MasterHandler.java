@@ -306,6 +306,7 @@ import handlers.voicedcommandhandlers.PingVCmd;
 import handlers.voicedcommandhandlers.PremiumVCmd;
 import handlers.voicedcommandhandlers.PvpZoneVCmd;
 import handlers.voicedcommandhandlers.RepairVCmd;
+import handlers.voicedcommandhandlers.SevenRB;
 import handlers.voicedcommandhandlers.TeleportsVCmd;
 import handlers.voicedcommandhandlers.Wedding;
 
@@ -647,6 +648,7 @@ public class MasterHandler
 		(Config.BANKING_SYSTEM_ENABLED ? Banking.class : null),
 		(CustomServerConfigs.ENABLE_CHARACTER_CONTROL_PANEL ? CcpVCmd.class : null),
 		(Config.L2JMOD_ALLOW_CHANGE_PASSWORD ? ChangePassword.class : null),
+		SevenRB.class,
 		(Config.L2JMOD_CHAT_ADMIN ? ChatAdmin.class : null),
 		(Config.L2JMOD_DEBUG_VOICE_COMMAND ? Debug.class : null),
 		(CustomServerConfigs.EVENLY_DISTRIBUTED_ITEMS ? EvenlyDistributeItems.class : null),

@@ -296,6 +296,7 @@ import handlers.voicedcommandhandlers.Banking;
 import handlers.voicedcommandhandlers.CcpVCmd;
 import handlers.voicedcommandhandlers.ChangePassword;
 import handlers.voicedcommandhandlers.ChatAdmin;
+import handlers.voicedcommandhandlers.CombineTalismans;
 import handlers.voicedcommandhandlers.Debug;
 import handlers.voicedcommandhandlers.EvenlyDistributeItems;
 import handlers.voicedcommandhandlers.Hellbound;
@@ -651,6 +652,7 @@ public class MasterHandler
 		(CustomServerConfigs.ENABLE_CHARACTER_CONTROL_PANEL ? CcpVCmd.class : null),
 		(Config.L2JMOD_ALLOW_CHANGE_PASSWORD ? ChangePassword.class : null),
 		SevenRB.class,
+		(Config.ENABLE_COMBINETALISMAN_COMMAND ? CombineTalismans.class : null),
 		(Config.L2JMOD_CHAT_ADMIN ? ChatAdmin.class : null),
 		(Config.L2JMOD_DEBUG_VOICE_COMMAND ? Debug.class : null),
 		(CustomServerConfigs.EVENLY_DISTRIBUTED_ITEMS ? EvenlyDistributeItems.class : null),
